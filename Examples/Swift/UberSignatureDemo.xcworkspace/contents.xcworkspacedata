@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/alan/repositories/UberSignature/Examples/Swift/UberSignatureDemo.xcodeproj">
+      location = "group:UberSignatureDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

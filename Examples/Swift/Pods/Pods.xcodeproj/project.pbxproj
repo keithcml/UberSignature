@@ -7,246 +7,266 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E2F8373D0CB788C04CA691DCAB69A5D /* SignatureDrawingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC58D36545B6FE0C07E1298C08A8287A /* SignatureDrawingModel.swift */; };
-		27DF3A79E7D69BE3BC0B238D770732E9 /* Pods-UberSignature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E954A15196F443D4CC9D6C54A924FDEC /* Pods-UberSignature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		400270BBBAFC7F6627B02E7D72C2EED6 /* UberSignature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 461315CDF22A0C684D20C3FB69BDCC14 /* UberSignature-dummy.m */; };
-		6C1D337BF75064B4A7E10E5A1102E211 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
-		728F30029C002B570DE90DD0DBC73270 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1332219EAF53D549E46723899DC3C1 /* CGPoint+Extensions.swift */; };
-		7FF11936FCBC67C9498207043AAF4E95 /* UIBezierPath+WeightedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B529A5EF1EB2D139041D015D5F118F9 /* UIBezierPath+WeightedPoint.swift */; };
-		9B40A7E7CFB6196211190EDBE1692AD3 /* UberSignature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B547A8ABCE2F46520E078C2A7616FB8 /* UberSignature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1CCA3818C718D38404374605A662B97 /* SignatureDrawingModelAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D7299F1B3293D80A55215B6AE32E3 /* SignatureDrawingModelAsync.swift */; };
-		A371CB8626D8C2E35CFCCF6BB8764EB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		B82D34093E934DB3967B90AAFDCEAD6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
-		BE63ED9A9E073305B4D07F248C609060 /* SignatureBezierProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559713E64094CC65A974A3386EE2B4D5 /* SignatureBezierProvider.swift */; };
-		E8494D38086625FB97ED9440A8F8DD11 /* SignatureDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1272C81D02F1341C1C35D15C1334532C /* SignatureDrawingViewController.swift */; };
-		ED15BF893A85B1EC6043FDFCF7ED4658 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
-		FDB47455C78A303D25C8BCCB011160EA /* Pods-UberSignature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F179CBDE72F35E5F61999A2B3CA274D2 /* Pods-UberSignature-dummy.m */; };
+		0F1FB3E1CC9FAFDB5B51DA2C33B23A71 /* UberSignature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 169525AFD34EF2BD7BEE4D2F83D599B3 /* UberSignature-dummy.m */; };
+		30B2D75510ADED6F55E5A6539673DBC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */; };
+		3ECB3E034F6F98511985B098CD5FC731 /* UberSignature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA6D7B990FD63B73BFB974FBDE8245C /* UberSignature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5559EA048602A4B753E0414F0B00590A /* SignatureDrawingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE1E75C08BF445D793B66620272C7E /* SignatureDrawingModel.swift */; };
+		64E0C4D2835A4BF0BCBABE1401D70D73 /* Pods-UberSignatureDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62EF730B744DB173A15825697FA0D21 /* Pods-UberSignatureDemo-dummy.m */; };
+		74185BC120DBE672008642ABDE78C841 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CB9340FB50BA6D5B04E6D1D1593077 /* CoreGraphics.framework */; };
+		8442123F3E22598380EEA942FE015EC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */; };
+		919537B818213D45E4CB512C1C3FA847 /* SignatureBezierProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B720EE05DECAF692695EB118021296 /* SignatureBezierProvider.swift */; };
+		9B0BFD147D8A5490B234A3F19F727169 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB070899B4C1A8098F20680EC350193C /* CGPoint+Extensions.swift */; };
+		B49EFA222639441AC1156E179D3297BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361EE39606F77A62E58D3A8534B4F6D7 /* UIKit.framework */; };
+		B4A231DC64C05ADF280D0CEAA62A9557 /* UIBezierPath+WeightedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489747E975B30577AAB458B61A98E89 /* UIBezierPath+WeightedPoint.swift */; };
+		BD93469BC2A2500315B1C2BED85E3977 /* SignatureDrawingModelAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7FBEBAE217412F104A22BDA90AD99 /* SignatureDrawingModelAsync.swift */; };
+		E4421A4D3DDBDAF638E69AD229A5AA30 /* SignatureDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04269FA8105863A9AB8F932F65B7DFCC /* SignatureDrawingViewController.swift */; };
+		EFD031E68CDCEF4AA55B5986C295E848 /* Pods-UberSignatureDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 268E4247FA78FEDF3A79287937ACA5DC /* Pods-UberSignatureDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		81BC436CDDBAD8A429DCA8DD9FA0C5D0 /* PBXContainerItemProxy */ = {
+		4EECBD32DC2FF8981A635552B09CA2F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 66A6D1738C05D3DCC77D4C65AD77E2EA;
+			remoteGlobalIDString = C3428AAACC908ED2D85F192CA471A90A;
 			remoteInfo = UberSignature;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		066F0490C6EA57711D894097E9DAC4A8 /* UberSignature-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberSignature-prefix.pch"; sourceTree = "<group>"; };
-		07D835D75F40CF35DBCF828C0436B0E6 /* Pods-UberSignature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberSignature.release.xcconfig"; sourceTree = "<group>"; };
-		1272C81D02F1341C1C35D15C1334532C /* SignatureDrawingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignatureDrawingViewController.swift; path = Sources/Swift/SignatureDrawingViewController.swift; sourceTree = "<group>"; };
-		13221076BBD5F55522C71B42C46E94F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1B547A8ABCE2F46520E078C2A7616FB8 /* UberSignature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberSignature-umbrella.h"; sourceTree = "<group>"; };
-		3046C91EAF187BB901933CB1557D05EE /* Pods-UberSignature-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UberSignature-frameworks.sh"; sourceTree = "<group>"; };
-		365A0436659D54E8C822633D5FBD68F7 /* UberSignature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UberSignature.framework; path = UberSignature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37EAE8BAC7EC989C89A853274C7A737E /* Pods-UberSignature-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UberSignature-acknowledgements.markdown"; sourceTree = "<group>"; };
-		45971202EC5E236C39EA2BE7AE6AA8A1 /* Pods-UberSignature-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UberSignature-resources.sh"; sourceTree = "<group>"; };
-		461315CDF22A0C684D20C3FB69BDCC14 /* UberSignature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UberSignature-dummy.m"; sourceTree = "<group>"; };
-		4B529A5EF1EB2D139041D015D5F118F9 /* UIBezierPath+WeightedPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+WeightedPoint.swift"; sourceTree = "<group>"; };
-		559713E64094CC65A974A3386EE2B4D5 /* SignatureBezierProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignatureBezierProvider.swift; sourceTree = "<group>"; };
-		81FDC3A752D4560F616426000C89F037 /* Pods-UberSignature-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberSignature-acknowledgements.plist"; sourceTree = "<group>"; };
-		8458244F19E6EBDCF65D8EDF085A53F1 /* Pods-UberSignature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UberSignature.modulemap"; sourceTree = "<group>"; };
-		89B387FAB1156D32348840CCC7A544C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9367DDC746C4816601906056E3AFACDD /* Pods_UberSignature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UberSignature.framework; path = "Pods-UberSignature.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		9ACD7409A867B691C01342A3979C883B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F1332219EAF53D549E46723899DC3C1 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
-		A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		AA31FC5F5C30909B8692607057CC6778 /* UberSignature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UberSignature.modulemap; sourceTree = "<group>"; };
-		B1A6EB687E3D35FD8B790B7B5B227D7B /* UberSignature.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UberSignature.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE6D7299F1B3293D80A55215B6AE32E3 /* SignatureDrawingModelAsync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModelAsync.swift; sourceTree = "<group>"; };
-		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0DC9CE1BBA33707B22A95DB54B52461 /* UberSignature.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UberSignature.xcconfig; sourceTree = "<group>"; };
-		DC58D36545B6FE0C07E1298C08A8287A /* SignatureDrawingModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModel.swift; sourceTree = "<group>"; };
-		E954A15196F443D4CC9D6C54A924FDEC /* Pods-UberSignature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UberSignature-umbrella.h"; sourceTree = "<group>"; };
-		EEABDA4F3F12C81D1B014706C816C432 /* Pods-UberSignature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberSignature.debug.xcconfig"; sourceTree = "<group>"; };
-		F179CBDE72F35E5F61999A2B3CA274D2 /* Pods-UberSignature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UberSignature-dummy.m"; sourceTree = "<group>"; };
-		F88E9884F0A5412A1F98C55AB2699320 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		04269FA8105863A9AB8F932F65B7DFCC /* SignatureDrawingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignatureDrawingViewController.swift; path = Sources/Swift/SignatureDrawingViewController.swift; sourceTree = "<group>"; };
+		169525AFD34EF2BD7BEE4D2F83D599B3 /* UberSignature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UberSignature-dummy.m"; sourceTree = "<group>"; };
+		1F2D6EE74B121DF7BE48944C9ABF6F61 /* Pods-UberSignatureDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberSignatureDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		268E4247FA78FEDF3A79287937ACA5DC /* Pods-UberSignatureDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UberSignatureDemo-umbrella.h"; sourceTree = "<group>"; };
+		2E3155ADE645A34312F78CA4A949E46C /* Pods-UberSignatureDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberSignatureDemo-Info.plist"; sourceTree = "<group>"; };
+		2E7B78B71943E68191BB3EBF671C97E3 /* Pods-UberSignatureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberSignatureDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		361EE39606F77A62E58D3A8534B4F6D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		371983A66D74148ED78FB68276687891 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		38B720EE05DECAF692695EB118021296 /* SignatureBezierProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignatureBezierProvider.swift; sourceTree = "<group>"; };
+		3B33949BA7EE2FE30BFD09478933C735 /* Pods_UberSignatureDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberSignatureDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B82628EBC930CD50A7850D22FE714B /* UberSignature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UberSignature.modulemap; sourceTree = "<group>"; };
+		430BF410DE46E6E6B2D968A4FB1D9867 /* UberSignature-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UberSignature-Info.plist"; sourceTree = "<group>"; };
+		462F0C043A6AA6FC2EE46A41072CC192 /* UberSignature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UberSignature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECD7D81694484A491312761C35C7714 /* UberSignature.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UberSignature.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		54A7AECF70F854680667E83C71C4EF49 /* Pods-UberSignatureDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UberSignatureDemo.modulemap"; sourceTree = "<group>"; };
+		5D67BD054BED8AD135A29E5A1E407D84 /* Pods-UberSignatureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberSignatureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		622514C49E90C35DCCAB78E399D87C3A /* UberSignature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UberSignature.debug.xcconfig; sourceTree = "<group>"; };
+		6489747E975B30577AAB458B61A98E89 /* UIBezierPath+WeightedPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+WeightedPoint.swift"; sourceTree = "<group>"; };
+		6CA7FBEBAE217412F104A22BDA90AD99 /* SignatureDrawingModelAsync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModelAsync.swift; sourceTree = "<group>"; };
+		77CB9340FB50BA6D5B04E6D1D1593077 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7C149553983E4541B2724F9E660D23CB /* Pods-UberSignatureDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UberSignatureDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AEF99850CE378EC414C3261D899D9A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3C067740BA4E89797B6BB8FB0903CB3 /* UberSignature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UberSignature.release.xcconfig; sourceTree = "<group>"; };
+		A7AE019456159716D7EB2D5A5B571794 /* UberSignature-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberSignature-prefix.pch"; sourceTree = "<group>"; };
+		BB070899B4C1A8098F20680EC350193C /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		C62EF730B744DB173A15825697FA0D21 /* Pods-UberSignatureDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UberSignatureDemo-dummy.m"; sourceTree = "<group>"; };
+		CCA6D7B990FD63B73BFB974FBDE8245C /* UberSignature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberSignature-umbrella.h"; sourceTree = "<group>"; };
+		D8AD562A83347F824DC69E41BEFDE565 /* Pods-UberSignatureDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UberSignatureDemo-frameworks.sh"; sourceTree = "<group>"; };
+		D9EE1E75C08BF445D793B66620272C7E /* SignatureDrawingModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2053A50A8FE01A58CA6AAB497E967599 /* Frameworks */ = {
+		5A0B18058CD4417CC701CA792EC83FD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A371CB8626D8C2E35CFCCF6BB8764EB1 /* Foundation.framework in Frameworks */,
+				74185BC120DBE672008642ABDE78C841 /* CoreGraphics.framework in Frameworks */,
+				30B2D75510ADED6F55E5A6539673DBC2 /* Foundation.framework in Frameworks */,
+				B49EFA222639441AC1156E179D3297BC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		617D1E7DE752C0B2BC22C2B07FBBDB64 /* Frameworks */ = {
+		C1420C4D88D2017557F02D15C36ED56C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C1D337BF75064B4A7E10E5A1102E211 /* CoreGraphics.framework in Frameworks */,
-				B82D34093E934DB3967B90AAFDCEAD6C /* Foundation.framework in Frameworks */,
-				ED15BF893A85B1EC6043FDFCF7ED4658 /* UIKit.framework in Frameworks */,
+				8442123F3E22598380EEA942FE015EC9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */,
+				37E9A611B7FA8B84E0117394CA54DC92 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D1AEB498C54474A220CC43BC9D74D9A /* Swift */ = {
+		17E961177DCC9D5F3A238AC8F7ECC55C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1272C81D02F1341C1C35D15C1334532C /* SignatureDrawingViewController.swift */,
-				641DC8CA6A81955B04B0466B8379845E /* Internal */,
+				59F57C3E7524095D5B67ADFBC2FB7BBD /* Pods-UberSignatureDemo */,
 			);
-			name = Swift;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		20021DD5415BAFF4A16044440A3FA574 /* Development Pods */ = {
+		234A0F5B94A5FF1D1EA04150D9A34E1D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4820AF82415C92414649C67ADE60EB22 /* UberSignature */,
+				371983A66D74148ED78FB68276687891 /* LICENSE */,
+				8AEF99850CE378EC414C3261D899D9A2 /* README.md */,
+				4ECD7D81694484A491312761C35C7714 /* UberSignature.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2D15BA717064D47D943EA541EA19FD3B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC55E7627248136F648F21F65CECD3AE /* UberSignature */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3F0CC8DEB5295B72006879D9364F2E3E /* Pods-UberSignature */ = {
+		37E9A611B7FA8B84E0117394CA54DC92 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9ACD7409A867B691C01342A3979C883B /* Info.plist */,
-				8458244F19E6EBDCF65D8EDF085A53F1 /* Pods-UberSignature.modulemap */,
-				37EAE8BAC7EC989C89A853274C7A737E /* Pods-UberSignature-acknowledgements.markdown */,
-				81FDC3A752D4560F616426000C89F037 /* Pods-UberSignature-acknowledgements.plist */,
-				F179CBDE72F35E5F61999A2B3CA274D2 /* Pods-UberSignature-dummy.m */,
-				3046C91EAF187BB901933CB1557D05EE /* Pods-UberSignature-frameworks.sh */,
-				45971202EC5E236C39EA2BE7AE6AA8A1 /* Pods-UberSignature-resources.sh */,
-				E954A15196F443D4CC9D6C54A924FDEC /* Pods-UberSignature-umbrella.h */,
-				EEABDA4F3F12C81D1B014706C816C432 /* Pods-UberSignature.debug.xcconfig */,
-				07D835D75F40CF35DBCF828C0436B0E6 /* Pods-UberSignature.release.xcconfig */,
+				77CB9340FB50BA6D5B04E6D1D1593077 /* CoreGraphics.framework */,
+				543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */,
+				361EE39606F77A62E58D3A8534B4F6D7 /* UIKit.framework */,
 			);
-			name = "Pods-UberSignature";
-			path = "Target Support Files/Pods-UberSignature";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		4820AF82415C92414649C67ADE60EB22 /* UberSignature */ = {
+		59F57C3E7524095D5B67ADFBC2FB7BBD /* Pods-UberSignatureDemo */ = {
 			isa = PBXGroup;
 			children = (
-				82001E7DDCA973B37EF1E81A87E1855A /* Pod */,
-				ECF4F1CAE579B08352E6D16D35BF928C /* Support Files */,
-				1D1AEB498C54474A220CC43BC9D74D9A /* Swift */,
+				54A7AECF70F854680667E83C71C4EF49 /* Pods-UberSignatureDemo.modulemap */,
+				7C149553983E4541B2724F9E660D23CB /* Pods-UberSignatureDemo-acknowledgements.markdown */,
+				1F2D6EE74B121DF7BE48944C9ABF6F61 /* Pods-UberSignatureDemo-acknowledgements.plist */,
+				C62EF730B744DB173A15825697FA0D21 /* Pods-UberSignatureDemo-dummy.m */,
+				D8AD562A83347F824DC69E41BEFDE565 /* Pods-UberSignatureDemo-frameworks.sh */,
+				2E3155ADE645A34312F78CA4A949E46C /* Pods-UberSignatureDemo-Info.plist */,
+				268E4247FA78FEDF3A79287937ACA5DC /* Pods-UberSignatureDemo-umbrella.h */,
+				2E7B78B71943E68191BB3EBF671C97E3 /* Pods-UberSignatureDemo.debug.xcconfig */,
+				5D67BD054BED8AD135A29E5A1E407D84 /* Pods-UberSignatureDemo.release.xcconfig */,
 			);
-			name = UberSignature;
-			path = ../../..;
+			name = "Pods-UberSignatureDemo";
+			path = "Target Support Files/Pods-UberSignatureDemo";
 			sourceTree = "<group>";
 		};
-		50EA719D104462EED8197E08C1E08DB8 /* Products */ = {
+		6CEFCD7CBAA8D5F4DF2381BB63934D40 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				9367DDC746C4816601906056E3AFACDD /* Pods_UberSignature.framework */,
-				365A0436659D54E8C822633D5FBD68F7 /* UberSignature.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		641DC8CA6A81955B04B0466B8379845E /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				9F1332219EAF53D549E46723899DC3C1 /* CGPoint+Extensions.swift */,
-				559713E64094CC65A974A3386EE2B4D5 /* SignatureBezierProvider.swift */,
-				DC58D36545B6FE0C07E1298C08A8287A /* SignatureDrawingModel.swift */,
-				BE6D7299F1B3293D80A55215B6AE32E3 /* SignatureDrawingModelAsync.swift */,
-				4B529A5EF1EB2D139041D015D5F118F9 /* UIBezierPath+WeightedPoint.swift */,
+				BB070899B4C1A8098F20680EC350193C /* CGPoint+Extensions.swift */,
+				38B720EE05DECAF692695EB118021296 /* SignatureBezierProvider.swift */,
+				D9EE1E75C08BF445D793B66620272C7E /* SignatureDrawingModel.swift */,
+				6CA7FBEBAE217412F104A22BDA90AD99 /* SignatureDrawingModelAsync.swift */,
+				6489747E975B30577AAB458B61A98E89 /* UIBezierPath+WeightedPoint.swift */,
 			);
 			name = Internal;
 			path = Sources/Swift/Internal;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		AC55E7627248136F648F21F65CECD3AE /* UberSignature */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				20021DD5415BAFF4A16044440A3FA574 /* Development Pods */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				50EA719D104462EED8197E08C1E08DB8 /* Products */,
-				8EF9686CFD53677850A118241D7E3F57 /* Targets Support Files */,
+				234A0F5B94A5FF1D1EA04150D9A34E1D /* Pod */,
+				B825B801606997CA085B915DAD55A4EA /* Support Files */,
+				CA1A3C90881E1144E5CAAD468CAA011A /* Swift */,
 			);
+			name = UberSignature;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
-		82001E7DDCA973B37EF1E81A87E1855A /* Pod */ = {
+		B825B801606997CA085B915DAD55A4EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F88E9884F0A5412A1F98C55AB2699320 /* LICENSE */,
-				13221076BBD5F55522C71B42C46E94F4 /* README.md */,
-				B1A6EB687E3D35FD8B790B7B5B227D7B /* UberSignature.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8EF9686CFD53677850A118241D7E3F57 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F0CC8DEB5295B72006879D9364F2E3E /* Pods-UberSignature */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */,
-				CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */,
-				A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		ECF4F1CAE579B08352E6D16D35BF928C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				89B387FAB1156D32348840CCC7A544C2 /* Info.plist */,
-				AA31FC5F5C30909B8692607057CC6778 /* UberSignature.modulemap */,
-				D0DC9CE1BBA33707B22A95DB54B52461 /* UberSignature.xcconfig */,
-				461315CDF22A0C684D20C3FB69BDCC14 /* UberSignature-dummy.m */,
-				066F0490C6EA57711D894097E9DAC4A8 /* UberSignature-prefix.pch */,
-				1B547A8ABCE2F46520E078C2A7616FB8 /* UberSignature-umbrella.h */,
+				40B82628EBC930CD50A7850D22FE714B /* UberSignature.modulemap */,
+				169525AFD34EF2BD7BEE4D2F83D599B3 /* UberSignature-dummy.m */,
+				430BF410DE46E6E6B2D968A4FB1D9867 /* UberSignature-Info.plist */,
+				A7AE019456159716D7EB2D5A5B571794 /* UberSignature-prefix.pch */,
+				CCA6D7B990FD63B73BFB974FBDE8245C /* UberSignature-umbrella.h */,
+				622514C49E90C35DCCAB78E399D87C3A /* UberSignature.debug.xcconfig */,
+				A3C067740BA4E89797B6BB8FB0903CB3 /* UberSignature.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Examples/Swift/Pods/Target Support Files/UberSignature";
 			sourceTree = "<group>";
 		};
+		CA1A3C90881E1144E5CAAD468CAA011A /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				04269FA8105863A9AB8F932F65B7DFCC /* SignatureDrawingViewController.swift */,
+				6CEFCD7CBAA8D5F4DF2381BB63934D40 /* Internal */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2D15BA717064D47D943EA541EA19FD3B /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				F612509F701F4EB04732EDEB9419BA8B /* Products */,
+				17E961177DCC9D5F3A238AC8F7ECC55C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F612509F701F4EB04732EDEB9419BA8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B33949BA7EE2FE30BFD09478933C735 /* Pods_UberSignatureDemo.framework */,
+				462F0C043A6AA6FC2EE46A41072CC192 /* UberSignature.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		186C3615AAAE725FC5B0F559721B7F67 /* Headers */ = {
+		1944A011086F1D0259DCFEC0C8BBC6D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DF3A79E7D69BE3BC0B238D770732E9 /* Pods-UberSignature-umbrella.h in Headers */,
+				EFD031E68CDCEF4AA55B5986C295E848 /* Pods-UberSignatureDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF9D2BAA34FA0A4E030D3CC19965A359 /* Headers */ = {
+		93E6A6C502E4520CBF8934AF471E5D9C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B40A7E7CFB6196211190EDBE1692AD3 /* UberSignature-umbrella.h in Headers */,
+				3ECB3E034F6F98511985B098CD5FC731 /* UberSignature-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		66A6D1738C05D3DCC77D4C65AD77E2EA /* UberSignature */ = {
+		348280CC25DFEDE6E1FF769A6F7718F0 /* Pods-UberSignatureDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95E24549D5226689C375FBDD626686D2 /* Build configuration list for PBXNativeTarget "UberSignature" */;
+			buildConfigurationList = 4C994082EB5F29FD8C34394666FC2B47 /* Build configuration list for PBXNativeTarget "Pods-UberSignatureDemo" */;
 			buildPhases = (
-				276EDDED08B10439E7DD223DBB878836 /* Sources */,
-				617D1E7DE752C0B2BC22C2B07FBBDB64 /* Frameworks */,
-				CF9D2BAA34FA0A4E030D3CC19965A359 /* Headers */,
+				1944A011086F1D0259DCFEC0C8BBC6D1 /* Headers */,
+				ADF2624721041959AB5A8B4469222AEB /* Sources */,
+				C1420C4D88D2017557F02D15C36ED56C /* Frameworks */,
+				46BE242912726D728B3B48FD47F5A7DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121C74655B777B9D14A7AC3A1E0517CA /* PBXTargetDependency */,
+			);
+			name = "Pods-UberSignatureDemo";
+			productName = "Pods-UberSignatureDemo";
+			productReference = 3B33949BA7EE2FE30BFD09478933C735 /* Pods_UberSignatureDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3428AAACC908ED2D85F192CA471A90A /* UberSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C78EB2897E92982970A9F9DE3D4B7A0 /* Build configuration list for PBXNativeTarget "UberSignature" */;
+			buildPhases = (
+				93E6A6C502E4520CBF8934AF471E5D9C /* Headers */,
+				3448A013853C80B31F44BD10469759C8 /* Sources */,
+				5A0B18058CD4417CC701CA792EC83FD2 /* Frameworks */,
+				196A12086537C2ADDCF0C00AF83C970B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -254,93 +274,99 @@
 			);
 			name = UberSignature;
 			productName = UberSignature;
-			productReference = 365A0436659D54E8C822633D5FBD68F7 /* UberSignature.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E02AE26BDD528ED2E348D3FE270317B6 /* Pods-UberSignature */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00EB5104CAAF1D3ABC9AD7D52C90F606 /* Build configuration list for PBXNativeTarget "Pods-UberSignature" */;
-			buildPhases = (
-				47C0A1E17408FCBDC9A18F1AC0D132AF /* Sources */,
-				2053A50A8FE01A58CA6AAB497E967599 /* Frameworks */,
-				186C3615AAAE725FC5B0F559721B7F67 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE1C96C90DF201B9FAF70DCF50394073 /* PBXTargetDependency */,
-			);
-			name = "Pods-UberSignature";
-			productName = "Pods-UberSignature";
-			productReference = 9367DDC746C4816601906056E3AFACDD /* Pods_UberSignature.framework */;
+			productReference = 462F0C043A6AA6FC2EE46A41072CC192 /* UberSignature.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C3428AAACC908ED2D85F192CA471A90A = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 50EA719D104462EED8197E08C1E08DB8 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F612509F701F4EB04732EDEB9419BA8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E02AE26BDD528ED2E348D3FE270317B6 /* Pods-UberSignature */,
-				66A6D1738C05D3DCC77D4C65AD77E2EA /* UberSignature */,
+				348280CC25DFEDE6E1FF769A6F7718F0 /* Pods-UberSignatureDemo */,
+				C3428AAACC908ED2D85F192CA471A90A /* UberSignature */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		276EDDED08B10439E7DD223DBB878836 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		196A12086537C2ADDCF0C00AF83C970B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728F30029C002B570DE90DD0DBC73270 /* CGPoint+Extensions.swift in Sources */,
-				BE63ED9A9E073305B4D07F248C609060 /* SignatureBezierProvider.swift in Sources */,
-				0E2F8373D0CB788C04CA691DCAB69A5D /* SignatureDrawingModel.swift in Sources */,
-				A1CCA3818C718D38404374605A662B97 /* SignatureDrawingModelAsync.swift in Sources */,
-				E8494D38086625FB97ED9440A8F8DD11 /* SignatureDrawingViewController.swift in Sources */,
-				400270BBBAFC7F6627B02E7D72C2EED6 /* UberSignature-dummy.m in Sources */,
-				7FF11936FCBC67C9498207043AAF4E95 /* UIBezierPath+WeightedPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47C0A1E17408FCBDC9A18F1AC0D132AF /* Sources */ = {
+		46BE242912726D728B3B48FD47F5A7DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3448A013853C80B31F44BD10469759C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB47455C78A303D25C8BCCB011160EA /* Pods-UberSignature-dummy.m in Sources */,
+				9B0BFD147D8A5490B234A3F19F727169 /* CGPoint+Extensions.swift in Sources */,
+				919537B818213D45E4CB512C1C3FA847 /* SignatureBezierProvider.swift in Sources */,
+				5559EA048602A4B753E0414F0B00590A /* SignatureDrawingModel.swift in Sources */,
+				BD93469BC2A2500315B1C2BED85E3977 /* SignatureDrawingModelAsync.swift in Sources */,
+				E4421A4D3DDBDAF638E69AD229A5AA30 /* SignatureDrawingViewController.swift in Sources */,
+				0F1FB3E1CC9FAFDB5B51DA2C33B23A71 /* UberSignature-dummy.m in Sources */,
+				B4A231DC64C05ADF280D0CEAA62A9557 /* UIBezierPath+WeightedPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF2624721041959AB5A8B4469222AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E0C4D2835A4BF0BCBABE1401D70D73 /* Pods-UberSignatureDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE1C96C90DF201B9FAF70DCF50394073 /* PBXTargetDependency */ = {
+		121C74655B777B9D14A7AC3A1E0517CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UberSignature;
-			target = 66A6D1738C05D3DCC77D4C65AD77E2EA /* UberSignature */;
-			targetProxy = 81BC436CDDBAD8A429DCA8DD9FA0C5D0 /* PBXContainerItemProxy */;
+			target = C3428AAACC908ED2D85F192CA471A90A /* UberSignature */;
+			targetProxy = 4EECBD32DC2FF8981A635552B09CA2F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -363,174 +389,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		13456035241C8E09E73A78DFBDEB9733 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEABDA4F3F12C81D1B014706C816C432 /* Pods-UberSignature.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UberSignature/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UberSignature/Pods-UberSignature.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_UberSignature;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7E2706F2E5DB5BE3383A55D486DAD258 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0DC9CE1BBA33707B22A95DB54B52461 /* UberSignature.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UberSignature/UberSignature-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UberSignature/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UberSignature/UberSignature.modulemap";
-				PRODUCT_NAME = UberSignature;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A90934830471129EF3999EA4399CFD91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07D835D75F40CF35DBCF828C0436B0E6 /* Pods-UberSignature.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UberSignature/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UberSignature/Pods-UberSignature.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_UberSignature;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CCF405426857C065123D950465A8AEFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -550,23 +415,85 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		EC8973BACE11E8B6A87B070C0AB9C9D6 /* Debug */ = {
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0DC9CE1BBA33707B22A95DB54B52461 /* UberSignature.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7AA8ADC7953D0283FB7DB757ED4B6C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622514C49E90C35DCCAB78E399D87C3A /* UberSignature.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -576,17 +503,116 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/UberSignature/UberSignature-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UberSignature/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/UberSignature/UberSignature-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UberSignature/UberSignature.modulemap";
+				PRODUCT_MODULE_NAME = UberSignature;
 				PRODUCT_NAME = UberSignature;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85939F3AE14D8706D515772F27612ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C067740BA4E89797B6BB8FB0903CB3 /* UberSignature.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UberSignature/UberSignature-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UberSignature/UberSignature-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UberSignature/UberSignature.modulemap";
+				PRODUCT_MODULE_NAME = UberSignature;
+				PRODUCT_NAME = UberSignature;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9125120497416AEF28C52B078EFBF3F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D67BD054BED8AD135A29E5A1E407D84 /* Pods-UberSignatureDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberSignatureDemo/Pods-UberSignatureDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberSignatureDemo/Pods-UberSignatureDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE9B65BB27A151B6DE704F105D724AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7B78B71943E68191BB3EBF671C97E3 /* Pods-UberSignatureDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberSignatureDemo/Pods-UberSignatureDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberSignatureDemo/Pods-UberSignatureDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -596,34 +622,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00EB5104CAAF1D3ABC9AD7D52C90F606 /* Build configuration list for PBXNativeTarget "Pods-UberSignature" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13456035241C8E09E73A78DFBDEB9733 /* Debug */,
-				A90934830471129EF3999EA4399CFD91 /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4C994082EB5F29FD8C34394666FC2B47 /* Build configuration list for PBXNativeTarget "Pods-UberSignatureDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCF405426857C065123D950465A8AEFA /* Debug */,
-				00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */,
+				FE9B65BB27A151B6DE704F105D724AC9 /* Debug */,
+				9125120497416AEF28C52B078EFBF3F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95E24549D5226689C375FBDD626686D2 /* Build configuration list for PBXNativeTarget "UberSignature" */ = {
+		8C78EB2897E92982970A9F9DE3D4B7A0 /* Build configuration list for PBXNativeTarget "UberSignature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC8973BACE11E8B6A87B070C0AB9C9D6 /* Debug */,
-				7E2706F2E5DB5BE3383A55D486DAD258 /* Release */,
+				7AA8ADC7953D0283FB7DB757ED4B6C52 /* Debug */,
+				85939F3AE14D8706D515772F27612ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

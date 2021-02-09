@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_UberSignatureVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_UberSignatureVersionString[];
+FOUNDATION_EXPORT double Pods_UberSignatureDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_UberSignatureDemoVersionString[];
 
